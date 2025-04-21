@@ -1,0 +1,41 @@
+.mainlocationcontainer{
+width: 100%;
+margin-top: 60px;
+display: flex;
+}
+.locationcontainer{
+    width: 50%;
+}
+.location{
+    color: white;
+    font-family: "Lexend", serif;
+    font-weight: 250;
+    margin-left: 120px;
+}
+.btn11{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn12:hover{
+    color:  rgb(226, 178, 45);
+    /* border-color: 1px solid rgb(226, 178, 45); */
+}
+.mainphonecontainer{
+    width: 50%;
+    display: flex;
+}
+.phonecontainer{
+    width: 25%; 
+    color: white;
+    margin-left: 20%;
+}
+.phonecolor{
+    color: rgb(226, 178, 45);
+    font-family: "Lexend", serif;
+    font-weight: 200;
+}
+.phonepara{
+    font-family: "Lexend", serif;
+    font-weight: 200;
+}

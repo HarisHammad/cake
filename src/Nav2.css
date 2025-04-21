@@ -1,0 +1,35 @@
+.nav2{
+    width: 100%;
+    background-color: black;  
+    display: flex;
+    justify-content: center;
+ position:fixed;
+    z-index: 999;
+   top: 50px;
+}
+nav{
+    padding: 40px 10px 20px ;
+}
+nav a{
+    color: white;
+    font-family: "Lexend", serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin: 0 30px;
+    position: relative;
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    background-color:  rgb(223, 171, 31); 
+    height: 2px;
+    transition: all .5s;
+}
+nav a:hover::before{
+    width: 100%;
+   
+}

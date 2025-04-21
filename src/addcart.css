@@ -1,0 +1,79 @@
+    .cartcontainer {
+      background-color: black;
+      width: 100%;
+      padding-top: 70px;
+      display: flex;
+      /* justify-content: center; */
+      gap: 25px;
+      overflow-x: hidden; /* Hide horizontal scroll bar */
+      scroll-behavior: smooth;
+    }
+    ::-webkit-scrollbar { display: none; }
+    .card1 {
+      width: 380px;
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+      flex: none;
+    }
+    
+    .cardimg {
+      transition: all ease 1s;
+    }
+    
+    .cardimg:hover {
+      scale: 1.1;
+      overflow: hidden;
+      transition: all ease 1s;
+    }
+    
+    .cart {
+      width: 100%;
+      height: 200px;
+      background-color: rgb(223, 171, 31);
+      font-family: "Lexend", serif;
+      font-weight: 250;
+      padding-top: 5px;
+      text-align: center;
+      transition: all ease 1s;
+    }
+    
+    .card1:hover .cart {
+      transform: translateY(-70px);
+      transition: all ease 1s;
+    }
+    
+    .title {
+      width: 100%;
+      height: 50px;
+      background-color: black;
+      padding: 10px;
+      color: white;
+      font-family: "Lexend", serif;
+      font-weight: 150;
+      position: absolute;
+      top: 79%;
+      left: 0;
+    }
+    
+    .price {
+      width: 100%;
+      height: 50px;
+      background-color: black;
+      padding: 10px;
+      position: absolute;
+      top: 89%;
+      left: 0;
+      font-family: "Lexend", serif;
+      font-weight: 150;
+      color: rgb(223, 171, 31);
+    }
+    
+    .leftbtn,
+    .rightbtn {
+      color: white;
+      align-self: center;
+      cursor: pointer;
+      margin-bottom: 80px;
+    }
+    

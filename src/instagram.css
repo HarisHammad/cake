@@ -1,0 +1,26 @@
+.instagramcontainer{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.instagram{
+    color: white;
+    font-family: "Lexend", serif;
+  font-weight: 150;
+  text-align: center;
+}
+.btn10{
+    width: 150px;
+}
+.fourimg{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.firstimg{
+    width: 20%;
+}

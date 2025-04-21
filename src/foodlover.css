@@ -1,0 +1,47 @@
+.foodlover {
+  margin-top: 60px;
+  color: white;
+  font-family: "Lexend", serif;
+  font-weight: 100;
+  text-align: center;
+}
+.Ratings{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 28%;
+    border: 0.5px solid gray;
+    font-family: "Lexend", serif;
+    font-weight: 100;
+    /* display: flex;
+    justify-content: center; */
+    border-left: none;
+    
+}
+.star{
+    padding: 45px 25px 0px 25px;
+}
+.comment{
+color: white;
+font-size: 1.5rem;
+align-items: center;
+padding: 25px 25px 25px 35px;
+}
+.containercircle{
+    display: flex;
+    margin-bottom: 50px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray; 
+    margin:  10px 25px 25px 25px;
+    overflow: hidden;
+}
+.circlename{
+    font-size: 1.5rem;
+    margin-bottom: 10px; 
+}

@@ -1,0 +1,19 @@
+.mainpage2{
+    margin-top: 135px;
+        width: 100%;
+        height: 100vh;
+        background-image: url('cake-1869227_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .firstheading2{
+        padding: 170px 0px 30px 60px;
+        font-size: 5rem;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        color: black;
+    }
+ 
